@@ -1,4 +1,4 @@
-NCL Scripts to draw the Gill patterns
+NCL scripts to draw the Gill patterns
 =====================================
 
 Reference
