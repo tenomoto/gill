@@ -1,4 +1,4 @@
-NCL scripts to draw the Gill patterns
+R scripts to draw the Gill patterns
 =====================================
 
 Reference
@@ -8,8 +8,9 @@ Reference
 
 Files
 -----
-* gill.ncl: parameters and functions representing solutions
-* plot.ncl: plot (u, v) in vectors w in shades and pressure in contours
-* plot_panel.ncl: w and p superimposed by (u, v) in vector in seperate panels
-* plot_hadley.ncl: plot Hadley circulation
-* plot_walker.ncl: plot Walker circulation
+* gill.R: parameters and functions to compute analytic solutions
+* plot.R: plot (u, v) in vectors w in shades and pressure in contours,
+          the Walker circulation, and merdionally averaged pressure.
+* plot_hadley.R: plot the Hadley circulation
+* *.png: plotted examples
+* ncl/*.ncl: original NCL implementation
